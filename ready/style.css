@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  font-family: 'Cormorant', serif;*/
+/*font-family: 'Cormorant Garamond', serif;*/
+/*font-family: 'Heebo', sans-serif;*/
+/*font-family: 'Josefin Sans', sans-serif;*/
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Cormorant:wght@300&family=Heebo:wght@700&family=Josefin+Sans:ital,wght@1,100&display=swap');
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container:before,
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-20{
+    width: 20%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-33{
+    width: 33.33%;
+
+}
+
+.col-100{
+    width: 100%;
+    
+}
